@@ -53,7 +53,7 @@ public class Zadanye6 {
             stmt.execute(createTableQuery);
             System.out.println("Table created\n");
 
-// Установка начального значения для 'employee_id'
+            // Установка начального значения для 'employee_id'
             String setInitialValueQuery = "alter table Users auto_increment = 100;";
             stmt.execute(setInitialValueQuery);
 
